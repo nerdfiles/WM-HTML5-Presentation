@@ -1,0 +1,49 @@
+/**
+ * General
+ */
+
+body { font: 1em/1.5 sans-serif, Helvetica, Arial; }
+
+h1,h2,h3,h4,h5,h6 { margin: .3em 0; }
+
+/**
+ * Diag
+ */
+ 
+body { 
+    /*background: url('../_css-lib/960.gs/img/16_col.gif') center center repeat-y;*/
+}
+
+/**
+ * Struct
+ */
+
+/**
+ * Page: Home
+ */
+ 
+html.home {
+    height: 100%;
+}
+
+body.home { 
+    height: 100%;
+}
+
+body.home #intro { 
+    height: 100%;
+    padding: 1em 0;
+    background: url('../_img/html5-logo.png') 1px 0 no-repeat;
+}
+
+body.home #site-container { height: 100%; }
+body.home #site-container-inner { height: 100%; }
+
+body.home article { padding: 0 1em; width: 310px; }
+
+ul { margin: 0; padding: 0;}
+li { display: inline; padding: 0; margin: 0; }
+ 
+/**
+ * Page: Sub
+ */
