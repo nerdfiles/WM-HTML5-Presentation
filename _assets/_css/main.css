@@ -1,4 +1,29 @@
 /**
+ * main.css
+ *
+ * main.css
+ *
+ * @theme               wm-html5-presentation
+ * @layouts             standard
+ * @templates           front, sub
+ *
+ * @note                Problem: Themes are collections of layouts; Layouts are collections of templates.
+ *                      Templates cover unique or "common" pages. A "common" page might fall under
+ *                      a "section" (e.g., domain.com/section/page/) which doubles as a page as well.
+ *                      That said, templates have a 1:1 relationship and a 1:MANY relationship with pages
+ *                      which are essentially a "content" element, produced by content authors. With this
+ *                      approach, one could set up multiple pages per template or one page per template in
+ *                      the CSS. In truth, the problems from a lack of an approach of this kind are:
+ *
+ *                          1. Insufficient foundation for Unit Testing CSS
+ *                          2. "So I set up all these pages under page X, can you style them all alike since
+ *                             they're 'children' (which is a natural assumption to make)?
+ *                          3. How does one confidently control the cascade? (It's going to happen regardless
+ *                             because of browser default stylesheet and complexity. Does one control/manage
+ *                             the cascade or blindly (and redundantly) develop CSS until 4:33AM on Sunday?
+ */
+
+/**
  * General
  */
 
@@ -10,40 +35,86 @@ h1,h2,h3,h4,h5,h6 { margin: .3em 0; }
  * Diag
  */
  
-body { 
-    /*background: url('../_css-lib/960.gs/img/16_col.gif') center center repeat-y;*/
+body.show-grid { 
+    background: url('../_css-lib/960.gs/img/16_col.gif') center center repeat-y;
 }
 
 /**
- * Struct
- */
-
-/**
- * Page: Home
+ *  Common
  */
  
-html.home {
-    height: 100%;
-}
-
-body.home { 
-    height: 100%;
-}
-
-body.home #intro { 
-    height: 100%;
-    padding: 1em 0;
-    background: url('../_img/html5-logo.png') 1px 0 no-repeat;
-}
-
-body.home #site-container { height: 100%; }
-body.home #site-container-inner { height: 100%; }
-
-body.home article { padding: 0 1em; width: 310px; }
-
 ul { margin: 0; padding: 0;}
 li { display: inline; padding: 0; margin: 0; }
+
+/**
+ * Layout: Standard
+ *
+ * Layout: Standard (Site Structure)
+ *
+ * @layout              standard
+ * @templates           front, sub
+ * @template_default    sub
+ */
+ 
+html.layout-standard #site-container { height: 100%; }
+html.layout-standard #site-container-inner { height: 100%; }
+html.layout-standard article { padding: 0 1em; width: 310px; }
+
+/**
+ * Template: Front
+ *
+ * Layout: page-front
+ *
+ * @layout              standard
+ * @lastmodified        03-31-2011 4:28PM
+ */
+ 
+html.template-front {
+    height: 100%;
+}
+
+html.template-front body { 
+    height: 100%;
+}
+
+html.template-front #intro { 
+    height: 100%;
+    padding: 1em 0;
+    background: url('../_img/bg-page-home-html5-logo.png') 1px 0 no-repeat;
+}
+
+/* Overrides */
+
+html.template-front #site-container { }
+html.template-front #site-container-inner { }
+html.template-front article { }
  
 /**
- * Page: Sub
+ * Template: Sub
+ *
+ * Layout: page-front
+ *
+ * @layout              standard
+ * @lastmodified        03-31-2011 4:28PM
  */
+
+html.template-sub {
+    height: 100%;
+}
+
+html.template-sub body { 
+    height: 100%;
+}
+
+html.template-sub #intro { 
+    height: 100%;
+    padding: 1em 0;
+    background: url('../_img/bg-page-sub-html5-logo.png') 1px 0 no-repeat;
+}
+
+/* Overrides */
+
+html.template-sub #site-container { }
+html.template-sub #site-container-inner { }
+html.template-sub article { padding: 0 1em; width: auto; }
+
