@@ -34,6 +34,7 @@
  *                                  no-js 
  *                                  theme-{theme_name} layout-{layout-name} template-{template_name} 
  *                                  page (parent-parent-page-{page_name} parent-page-{page_name}) page-{page_name}
+ *                                  generic-cms-config-option-1 generic-cms-config-option-2
  *
  *                      USAGE-CSS:
  *
