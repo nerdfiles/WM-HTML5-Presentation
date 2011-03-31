@@ -20,5 +20,23 @@
  *                             because of browser default stylesheet and complexity. Does one control/manage
  *                             the cascade or blindly (and redundantly) develop CSS until 4:33AM on Sunday?
  *
- *                      See main.css for context.
+ *                      See: main.css for context.
+ *
+ *                      USAGE-HTML:
+ *                          LEGEND: (...) = optional/dynamic; 
+ *
+ *                          <html 
+ *                              lang="en" 
+ *                              id="domain-com" 
+ *                              class="no-js theme-{theme_name} layout-{layout-name} template-{template_name} page (parent-parent-page-{page_name} parent-page-{page_name}) page-{page_name}">
+ *
+ *                      USAGE-CSS:
+ *
+ *                          See: main.css.
+ *                          
+ *                      USAGE-JS:
+ *
+ *                          See: None.
+ *
+ * @todo                Come up with a better quick documentation strategy. See above!
  */
