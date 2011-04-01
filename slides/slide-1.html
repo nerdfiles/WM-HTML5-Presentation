@@ -1,0 +1,147 @@
+<header>
+    <hgroup>
+        <h1>HTML5 Presentation</h1>
+        <h2>Video</h2>
+    </hgroup>
+</header>
+<h3>&lt;video&gt; Element Support</h3>
+<table>
+    <caption>&lt;video&gt; Element Support table</caption>
+    <colgroup>
+        <col class="ie grid_2" />
+        <col class="ff grid_2" />
+        <col class="safari grid_1" />
+        <col class="chrome grid_1" />
+        <col class="opera grid_1" />
+        <col class="iphone grid_1" />
+        <col class="android grid_1" />
+        <col class="camino grid_1" />
+        <col class="shiira grid_1" />
+        <col class="seamonkey grid_1" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th class="classA ie"><abbr title="Internet Explorer">IE</abbr></th>
+            <th class="classA ff"><abbr title="Firefox">FF</abbr></th>
+            <th class="classA safari">Safari</th>
+            <th class="classA chrome">Chrome</th>
+            <th class="classA opera">Opera</th>
+            <th class="classM iphone">iPhone</th>
+            <th class="classM android">Android</th>
+            <th class="classX camino">Camino</th>
+            <th class="classX shiira">Shiira</th>
+            <th class="classP seamonkey">SeaMonkey</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="10">
+                <dl class="table-legend">
+                    <dt>&times;</dt>
+                    <dd>Not supported</dd>
+                </dl>
+            </td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td class="classA ie">9.0+</td>
+            <td class="classA ff">3.5+</td>
+            <td class="classA safari">3.0+</td>
+            <td class="classA chrome">3.0+</td>
+            <td class="classA opera">10.5+</td>
+            <td class="classM iphone">1.0+</td>
+            <td class="classM android">2.0+</td>
+            <td class="classX ns camino">&times;</td>
+            <td class="classX ns shiira">&times;</td>
+            <td class="classP ns seamonkey">&times;</td>
+        </tr>
+    </tbody>
+</table>
+<h3>CODEC/CONTAINER Support</h3>
+<table>
+    <caption>&lt;video&gt; Element Support table</caption>
+    <colgroup>
+        <col class="codec grid_2" />
+        <col class="ie grid_2" />
+        <col class="ff grid_2" />
+        <col class="safari grid_1" />
+        <col class="chrome grid_1" />
+        <col class="opera grid_1" />
+        <col class="iphone grid_1" />
+        <col class="android grid_1" />
+        <col class="camino grid_1" />
+        <col class="shiira grid_1" />
+        <col class="seamonkey grid_1" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th class="codec">&nbsp;</th>
+            <th class="classA ie"><abbr title="Internet Explorer">IE</abbr></th>
+            <th class="classA ff"><abbr title="Firefox">FF</abbr></th>
+            <th class="classA safari">Safari</th>
+            <th class="classA chrome">Chrome</th>
+            <th class="classA opera">Opera</th>
+            <th class="classM iphone">iPhone</th>
+            <th class="classM android">Android</th>
+            <th class="classX camino">Camino</th>
+            <th class="classX shiira">Shiira</th>
+            <th class="classP seamonkey">SeaMonkey</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="11">
+                <dl class="table-legend">
+                    <dt>&times;</dt>
+                    <dd>Not supported</dd>
+                    <dt>&dagger;</dt>
+                    <dd>Safari will play anything that QuickTime can play. QuickTime comes pre-installed with H.264/AAC/MP4 support. There are installable third-party plugins that add support for Theora and WebM, but each user needs to install these plugins before Safari will recognize those video formats.</dd>
+                    <dt>&Dagger;</dt>
+                    <dd>Google Chrome will drop support for H.264 soon. Read about why.</dd>
+                </dl>
+            </td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <th class="codec">Theora + Vorbis + Ogg</th>
+            <td class="classA ie">&times;</td>
+            <td class="classA ff">3.5+</td>
+            <td class="classA safari">&dagger;</td>
+            <td class="classA chrome">5.0+</td>
+            <td class="classA opera">10.5+</td>
+            <td class="classM iphone">&times;</td>
+            <td class="classM android">&times;</td>
+            <td class="classX ns camino">&times;</td>
+            <td class="classX ns shiira">&times;</td>
+            <td class="classP ns seamonkey">&times;</td>
+        </tr>
+        <tr>
+            <th class="codec">H.264 + AAC + MP4</th>
+            <td class="classA ie">9.0+</td>
+            <td class="classA ff">&times;</td>
+            <td class="classA safari">3.0+</td>
+            <td class="classA chrome">&times;</td>
+            <td class="classA opera">&times;</td>
+            <td class="classM iphone">3.0+</td>
+            <td class="classM android">2.0+</td>
+            <td class="classX ns camino">&times;</td>
+            <td class="classX ns shiira">&times;</td>
+            <td class="classP ns seamonkey">&times;</td>
+        </tr>
+        <tr>
+            <th class="codec">WebM</th>
+            <td class="classA ie">9.0+</td>
+            <td class="classA ff">4.0+</td>
+            <td class="classA safari">&dagger;</td>
+            <td class="classA chrome">6.0+</td>
+            <td class="classA opera">10.6+</td>
+            <td class="classM iphone">&times;</td>
+            <td class="classM android">2.3&Dagger;</td>
+            <td class="classX ns camino">&times;</td>
+            <td class="classX ns shiira">&times;</td>
+            <td class="classP ns seamonkey">&times;</td>
+        </tr>
+    </tbody>
+</table>

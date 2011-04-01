@@ -16,6 +16,7 @@ body { font: 1em/1.5 sans-serif, Helvetica, Arial; }
 
 h1,h2,h3,h4,h5,h6 { margin: .3em 0; }
 
+
 /**
  * Diag
  */
@@ -24,6 +25,7 @@ body.show-grid {
     background: url('../_css-lib/960.gs/img/16_col.gif') center center repeat-y;
 }
 
+
 /**
  *  Common
  */
@@ -31,19 +33,23 @@ body.show-grid {
 ul { margin: 0; padding: 0;}
 li { display: inline; padding: 0; margin: 0; }
 
+
 /**
  * Layout: Standard
  *
  * Layout: Standard (Site Structure)
  *
- * @layout              standard
  * @templates           front, sub
  * @template_default    sub
  */
  
+html.layout-standard { height: 100%; }
+html.layout-standard body { height: 100%; }
 html.layout-standard #site-container { height: 100%; }
 html.layout-standard #site-container-inner { height: 100%; }
-html.layout-standard article { padding: 0 1em; width: 310px; }
+html.layout-standard article { /* width: 310px;*/ }
+html.layout-standard #slide { height: 100%; }
+
 
 /**
  * Template: Front
@@ -53,19 +59,9 @@ html.layout-standard article { padding: 0 1em; width: 310px; }
  * @layout              standard
  * @lastmodified        03-31-2011 4:28PM
  */
- 
-html.template-front {
-    height: 100%;
-}
 
-html.template-front body { 
-    height: 100%;
-}
-
-html.template-front #intro { 
-    height: 100%;
-    padding: 1em 0;
-    background: url('../_img/bg-page-home-html5-logo.png') 1px 0 no-repeat;
+html.template-front #slide { 
+    background: url('../_img/bg-template-front-html5-logo.png') 1px 0 no-repeat;
 }
 
 /* Overrides */
@@ -73,6 +69,7 @@ html.template-front #intro {
 html.template-front #site-container { }
 html.template-front #site-container-inner { }
 html.template-front article { }
+
  
 /**
  * Template: Sub
@@ -83,18 +80,8 @@ html.template-front article { }
  * @lastmodified        03-31-2011 4:28PM
  */
 
-html.template-sub {
-    height: 100%;
-}
-
-html.template-sub body { 
-    height: 100%;
-}
-
-html.template-sub #intro { 
-    height: 100%;
-    padding: 1em 0;
-    background: url('../_img/bg-page-sub-html5-logo.png') 1px 0 no-repeat;
+html.template-sub #slide { 
+    background: url('../_img/bg-template-sub-html5-logo.png') 1px 0 no-repeat;
 }
 
 /* Overrides */
@@ -102,4 +89,36 @@ html.template-sub #intro {
 html.template-sub #site-container { }
 html.template-sub #site-container-inner { }
 html.template-sub article { padding: 0 1em; width: auto; }
+ 
 
+/**
+ * Tables
+ *
+ * Tables spec
+ *
+ * @author              aalexan1
+ * @concept             redefine a column width based on a stipulated table width?
+ *                      (in the sense that "grid_1" replaces @span; is @span non-essential
+ *                      in the way that @width is? -- we want control of presentation in 
+ *                      css, not in attributes #soc)
+ * @lastmodified        
+ */
+ 
+table { 
+    table-layout: auto !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    caption-side: bottom;
+    empty-cells: show;
+    margin: 0 0 1em; }
+    
+
+/**
+ * Bleh
+ */
+ 
+.container_16 col.grid_1,
+.container_16 col.grid_2 { 
+    display: table-column; 
+    float: none; }
