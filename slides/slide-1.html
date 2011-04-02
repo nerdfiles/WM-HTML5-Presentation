@@ -4,12 +4,16 @@
         <h2>Video</h2>
     </hgroup>
 </header>
-<h3>&lt;video&gt; Element Support</h3>
-<table>
-    <caption>&lt;video&gt; Element Support table</caption>
+
+<section class="clearfix">
+<header>
+<h3>video Element Support</h3>
+</header>
+<table class="grid_10 prefix_3 alpha">
+    <caption></caption>
     <colgroup>
-        <col class="ie grid_2" />
-        <col class="ff grid_2" />
+        <col class="ie grid_1" />
+        <col class="ff grid_1" />
         <col class="safari grid_1" />
         <col class="chrome grid_1" />
         <col class="opera grid_1" />
@@ -21,16 +25,16 @@
     </colgroup>
     <thead>
         <tr>
-            <th class="classA ie"><abbr title="Internet Explorer">IE</abbr></th>
-            <th class="classA ff"><abbr title="Firefox">FF</abbr></th>
-            <th class="classA safari">Safari</th>
-            <th class="classA chrome">Chrome</th>
-            <th class="classA opera">Opera</th>
-            <th class="classM iphone">iPhone</th>
-            <th class="classM android">Android</th>
-            <th class="classX camino">Camino</th>
-            <th class="classX shiira">Shiira</th>
-            <th class="classP seamonkey">SeaMonkey</th>
+            <th scope="col" class="classA ie"><abbr title="Internet Explorer">IE</abbr></th>
+            <th scope="col" class="classA ff"><abbr title="Firefox">FF</abbr></th>
+            <th scope="col" class="classA safari">Saf</th>
+            <th scope="col" class="classA chrome">Chr</th>
+            <th scope="col" class="classA opera">Ope</th>
+            <th scope="col" class="classM iphone">iPh</th>
+            <th scope="col" class="classM android">And</th>
+            <th scope="col" class="classX camino">Cam</th>
+            <th scope="col" class="classX shiira">Shi</th>
+            <th scope="col" class="classP seamonkey">SeaM</th>
         </tr>
     </thead>
     <tfoot>
@@ -58,13 +62,18 @@
         </tr>
     </tbody>
 </table>
-<h3>CODEC/CONTAINER Support</h3>
-<table>
-    <caption>&lt;video&gt; Element Support table</caption>
+</section>
+
+<section class="clearfix">
+<header>
+<h3>Codec/Container Support</h3>
+</header>
+<table class="grid_16 prefix_1 alpha">
+    <caption></caption>
     <colgroup>
-        <col class="codec grid_2" />
-        <col class="ie grid_2" />
-        <col class="ff grid_2" />
+        <col class="codec grid_4" />
+        <col class="ie grid_1" />
+        <col class="ff grid_1" />
         <col class="safari grid_1" />
         <col class="chrome grid_1" />
         <col class="opera grid_1" />
@@ -76,17 +85,17 @@
     </colgroup>
     <thead>
         <tr>
-            <th class="codec">&nbsp;</th>
-            <th class="classA ie"><abbr title="Internet Explorer">IE</abbr></th>
-            <th class="classA ff"><abbr title="Firefox">FF</abbr></th>
-            <th class="classA safari">Safari</th>
-            <th class="classA chrome">Chrome</th>
-            <th class="classA opera">Opera</th>
-            <th class="classM iphone">iPhone</th>
-            <th class="classM android">Android</th>
-            <th class="classX camino">Camino</th>
-            <th class="classX shiira">Shiira</th>
-            <th class="classP seamonkey">SeaMonkey</th>
+            <th scope="col" class="codec">&nbsp;</th>
+            <th scope="col" class="classA ie"><abbr title="Internet Explorer">IE</abbr></th>
+            <th scope="col" class="classA ff"><abbr title="Firefox">FF</abbr></th>
+            <th scope="col" class="classA safari">Saf</th>
+            <th scope="col" class="classA chrome">Chr</th>
+            <th scope="col" class="classA opera">Ope</th>
+            <th scope="col" class="classM iphone">iPh</th>
+            <th scope="col" class="classM android">And</th>
+            <th scope="col" class="classX camino">Cam</th>
+            <th scope="col" class="classX shiira">Shi</th>
+            <th scope="col" class="classP seamonkey">SeaM</th>
         </tr>
     </thead>
     <tfoot>
@@ -105,20 +114,20 @@
     </tfoot>
     <tbody>
         <tr>
-            <th class="codec">Theora + Vorbis + Ogg</th>
-            <td class="classA ie">&times;</td>
+            <td class="codec">Theora + Vorbis + Ogg</td>
+            <td class="classA ie">x</td>
             <td class="classA ff">3.5+</td>
-            <td class="classA safari">&dagger;</td>
+            <td class="classA safari">dag</td>
             <td class="classA chrome">5.0+</td>
             <td class="classA opera">10.5+</td>
-            <td class="classM iphone">&times;</td>
-            <td class="classM android">&times;</td>
-            <td class="classX ns camino">&times;</td>
-            <td class="classX ns shiira">&times;</td>
-            <td class="classP ns seamonkey">&times;</td>
+            <td class="classM iphone">x</td>
+            <td class="classM android">x</td>
+            <td class="classX ns camino">x</td>
+            <td class="classX ns shiira">x</td>
+            <td class="classP ns seamonkey">x</td>
         </tr>
         <tr>
-            <th class="codec">H.264 + AAC + MP4</th>
+            <td class="codec">H.264 + AAC + MP4</td>
             <td class="classA ie">9.0+</td>
             <td class="classA ff">&times;</td>
             <td class="classA safari">3.0+</td>
@@ -131,7 +140,7 @@
             <td class="classP ns seamonkey">&times;</td>
         </tr>
         <tr>
-            <th class="codec">WebM</th>
+            <td class="codec">WebM</td>
             <td class="classA ie">9.0+</td>
             <td class="classA ff">4.0+</td>
             <td class="classA safari">&dagger;</td>
@@ -145,3 +154,4 @@
         </tr>
     </tbody>
 </table>
+</section>
