@@ -1,0 +1,130 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"file_history":
+	[
+		"/G/Documents and Settings/Administrator/My Documents/Projects/nerdfiles.net/work-mocks/wm-html5-presentation/_.sublime-project",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/nerdfiles.net/work-mocks/wm-html5-presentation/''.sublime-project",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/nerdfiles.net/work-mocks/wm-html5-presentation/_assets/_js/main.js",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/nerdfiles.net/work-mocks/wm-html5-presentation/index.html",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/nerdfiles.net/work-mocks/wm-html5-presentation/video.html",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/nerdfiles.net/work-mocks/wm-html5-presentation/_assets/_css/main.css",
+		"/G/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/G/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/ie6-ml420-print-presentation/printStyle_css.css",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/ie6-ml420-print-presentation/index.html",
+		"/X/Apollo contra Pan/Apollo/Games/Assassin's Creed-Repack-Reloaded/reloaded.nfo",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/ie6-ml420-print-presentation/bak/printStyle_css.css",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/ie6-ml420-print-presentation/bak/index.html",
+		"/G/Documents and Settings/Administrator/My Documents/Projects/ie6-ml420-print-presentation/printStyle_css.txt",
+		"/G/Documents and Settings/Administrator/.ssh/id_rsa.pub"
+	],
+	"find_in_files":
+	{
+		"include_history":
+		[
+		],
+		"location_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	{
+		"mount_points":
+		[
+			"/G/Documents and Settings/Administrator/My Documents/Projects/nerdfiles.net/work-mocks/wm-html5-presentation"
+		]
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0,
+			0.5,
+			1
+		],
+		"rows":
+		[
+			0,
+			1
+		]
+	},
+	"menu_visible": true,
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"select_project":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"show_minimap": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175,
+	"status_bar_visible": true
+}
