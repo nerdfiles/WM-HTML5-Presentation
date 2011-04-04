@@ -35,6 +35,16 @@ li { display: inline; padding: 0; margin: 0; }
 
 
 /**
+ * Table Legend
+ */
+ 
+dl.table-legend { font-size: 0.8em; border-top: 1px #ccc solid; margin: 0.7em 0 0 0; padding: 0.3em 0 0 0; }
+dl.table-legend dt { width: 50px; float: left; clear: left; }
+dl.table-legend dd { float: left; }
+dl.table-legend p { margin: .3em 0 .3em; }
+
+
+/**
  * Layout: Standard
  *
  * Layout: Standard (Site Structure)
@@ -47,7 +57,7 @@ html.layout-standard { height: 100%; }
 html.layout-standard body { height: 100%; }
 html.layout-standard #site-container { height: 100%; }
 html.layout-standard #site-container-inner { height: 100%; }
-html.layout-standard article { /* width: 310px;*/ }
+html.layout-standard article { /* width: 310px;*/ padding: 1em 0; }
 html.layout-standard #slide { height: 100%; }
 
 
