@@ -16,6 +16,8 @@ jQuery(function($) {
         $self.bind('click', function(e) {
         
             var $self = $(this);
+            
+            e.preventDefault();
         
         });
         
