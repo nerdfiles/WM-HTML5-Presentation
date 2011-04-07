@@ -2,6 +2,7 @@ jQuery(function($) {
 
     $('html.no-js').removeClass('no-js').addClass('js-enabled');
     
+<<<<<<< HEAD
     var index = $('article').html();
     
     $('#control a').each(function(e) {
@@ -72,6 +73,23 @@ jQuery(function($) {
                 
             }
 
+=======
+    $('#control a').each(function(e) {
+        
+        var $self = $(this),
+            loc = location.href;
+            
+        if ( loc[loc.length-1] === '/' || loc.indexOf('index.html') !== -1 ) {
+            $self.attr('href', 'slide-1.html');
+        } else {
+            
+        }
+        
+        $self.bind('click', function(e) {
+        
+            var $self = $(this);
+            
+>>>>>>> 01d94bdb01ee6b2a309110e20323835c1f981c38
             e.preventDefault();
         
         });
